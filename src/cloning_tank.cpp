@@ -3,7 +3,8 @@
 // Implement this:
 void CloningTank::filter_op(std::vector<Monkey> &monkeys)
 {
-    for(int i = 0;i<monkeys.size();i++){
+    int old_size = monkeys.size();
+    for(int i = 0;i<old_size;i++){
 
         Monkey to_clone = monkeys[i];
 
