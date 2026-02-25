@@ -3,5 +3,12 @@
 // Implement this:
 void CloningTank::filter_op(std::vector<Monkey> &monkeys)
 {
-   
+    for(int i = 0;i<monkeys.size();i++){
+
+        Monkey to_clone = monkeys[i];
+
+        Monkey * cloned_monkey = new Monkey(to_clone.name,to_clone.hunger_level);
+
+        monkeys.push_back(*cloned_monkey);
+    }
 }
