@@ -1,4 +1,4 @@
-#include "monkey.hpp"
+#include "../include/monkey.hpp"
 
 Monkey::Monkey(std::string name, int hunger_level) : hunger_level(hunger_level), name(name) {}
 

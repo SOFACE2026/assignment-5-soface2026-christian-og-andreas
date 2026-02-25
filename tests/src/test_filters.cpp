@@ -1,9 +1,10 @@
 #define CATCH_CONFIG_MAIN // This tells Catch to provide a main() - only do this in one cpp file
-#include "catch.hpp"
-#include "monkey.hpp"
-#include "monkey_watcher.hpp"
-#include "feeder.hpp"
-#include "cloning_tank.hpp"
+#include "../include/catch.hpp"
+#include "../../include/monkey.hpp"
+#include "../../include/monkey_watcher.hpp"
+#include "../../include/feeder.hpp"
+#include "../../include/cloning_tank.hpp"
+#include <stdio.h>
 using namespace Catch::Matchers;
 
 TEST_CASE("Test Filtering")
